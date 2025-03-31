@@ -19,6 +19,6 @@ Null Hypothesis Value in the population of interest and determine whether or not
 that the population proportion of interest is greater than, less than, or unequal to the Null Hypothesis value based on the given
 significance level.
 
-Conclusion: By making this model, I was able to combine my knowledge and skills of both the Golang programming language as well as
-Statistics towards a real-life applications. I hope to build upon my projects to develop further computational statistical and
-information-processing model in the future in areas such as economic and financial research.
+Conclusion: Over the course of developing this model, I was able to combine my knowledge and skills of both the Golang programming language as well as Statistics towards a real-life applications. I hope to build upon my projects to develop further computational statistical and information-processing model in the future in areas such as economic and financial research.
+
+README UPDATED TO PROVIDE ADDITIONAL CLARIFICATION ON PROGRAM: 03/31/2025
