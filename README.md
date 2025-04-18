@@ -1,5 +1,8 @@
 # one-proportion-z-test-program
-A Golang program designed to conduct statistical Z-Tests
+
+Full Project Documentation: https://drive.google.com/file/d/1hPqd_84LZMyMrH0xYKw_mAcgbY9rhjmS/view?usp=sharing
+
+Programmed By: Shome Chakraborty
 
 Overview: This program is designed to conduct One Proportion Statistical Z-Tests. This program was written in the
 Golang programming language and utilizes statistical laws and formulas to provide users such as researchers
