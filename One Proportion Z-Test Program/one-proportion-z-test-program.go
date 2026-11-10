@@ -156,19 +156,19 @@ func oneProportionZTest() {
 // Outputs z-test results
            if pValue <= significanceLevel {
                if comparison == "G" {
-                   fmt.Printf("As the p-value of this test of about %.3f is less than the signficiance level of %.3f, the null hypothesis is rejected. There is convincing statistical evidence that the population proportion of the population of interest is greater than the null value.", pValue, significanceLevel)
+                   fmt.Printf("As the p-value of this test of about %.3f is less than the significance level of %.3f, the null hypothesis is rejected. There is convincing statistical evidence that the population proportion of the population of interest is greater than the null value.", pValue, significanceLevel)
                } else if comparison == "L" {
-                   fmt.Printf("As the p-value of this test of about %.3f is less than the signficiance level of %.3f, the null hypothesis is rejected. There is convincing statistical evidence that the population proportion of the population of interest is less than the null value.", pValue, significanceLevel)
+                   fmt.Printf("As the p-value of this test of about %.3f is less than the significance level of %.3f, the null hypothesis is rejected. There is convincing statistical evidence that the population proportion of the population of interest is less than the null value.", pValue, significanceLevel)
                } else if comparison == "U" {
-                   fmt.Printf("As the p-value of this test of about %.3f is less than the signficiance level of %.3f, the null hypothesis is rejected. There is convincing statistical evidence that the population proportion of the population of interest is not equal to the null value.", pValue, significanceLevel)
+                   fmt.Printf("As the p-value of this test of about %.3f is less than the significance level of %.3f, the null hypothesis is rejected. There is convincing statistical evidence that the population proportion of the population of interest is not equal to the null value.", pValue, significanceLevel)
                }
            } else {
                if comparison == "G" {
-                   fmt.Printf("As the p-value of this test of about %.3f is greater than the signficiance level of %.3f, the null hypothesis fails to be rejected. There is not convincing statistical evidence that the population proportion of the population of interest is greater than the null value.", pValue, significanceLevel)
+                   fmt.Printf("As the p-value of this test of about %.3f is greater than the significance level of %.3f, the null hypothesis fails to be rejected. There is not convincing statistical evidence that the population proportion of the population of interest is greater than the null value.", pValue, significanceLevel)
                } else if comparison == "L" {
-                   fmt.Printf("As the p-value of this test of about %.3f is greater than the signficiance level of %.3f, the null hypothesis fails to be rejected. There is not convincing statistical evidence that the population proportion of the population of interest is less than the null value.", pValue, significanceLevel)
+                   fmt.Printf("As the p-value of this test of about %.3f is greater than the significance level of %.3f, the null hypothesis fails to be rejected. There is not convincing statistical evidence that the population proportion of the population of interest is less than the null value.", pValue, significanceLevel)
                } else if comparison == "U" {
-                   fmt.Printf("As the p-value of this test of about %.3f is greater than the signficiance level of %.3f, the null hypothesis fails to be rejected. There is not convincing statistical evidence that the population proportion of the population of interest is not equal to the null value.", pValue, significanceLevel)
+                   fmt.Printf("As the p-value of this test of about %.3f is greater than the significance level of %.3f, the null hypothesis fails to be rejected. There is not convincing statistical evidence that the population proportion of the population of interest is not equal to the null value.", pValue, significanceLevel)
                }
            }
        } else {
